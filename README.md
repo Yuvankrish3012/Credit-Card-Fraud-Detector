@@ -71,7 +71,7 @@ We used an **XGBoost Classifier** for its performance on imbalanced datasets.
 
 ### ✅ Evaluation Metrics
 
-```text
+text
 Accuracy  : 0.96
 Precision : 0.97
 Recall    : 0.96
