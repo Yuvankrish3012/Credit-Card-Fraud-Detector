@@ -71,11 +71,11 @@ We used an **XGBoost Classifier** for its performance on imbalanced datasets.
 
 ### ✅ Evaluation Metrics
 
-text
 Accuracy  : 0.96
 Precision : 0.97
 Recall    : 0.96
 F1 Score  : 0.96
+
 📋 Classification Report:
 
 Label	Precision	Recall	F1-score	Support
@@ -83,10 +83,11 @@ Legit	0.96	0.97	0.96	99
 Fraud	0.97	0.96	0.96	98
 
 💾 Saved Artifacts
+
 File	Description
 credit_fraud_model.pkl	Trained XGBoost model
 amount_scaler.pkl	Scaler used for Amount
-fraud_detector_app.py	Streamlit frontend code
+fraud_detector_app.py	Streamlit frontend code```
 
 🌐 Streamlit UI
 ▶️ How to Run
@@ -116,6 +117,7 @@ V1,V2,V3,...,V28,Amount
 This transaction is likely LEGITIMATE ✅
 (or)
 ⚠️ This transaction is FRAUDULENT
+
 
 ![Screenshot 2025-06-13 110801](https://github.com/user-attachments/assets/d2e75a1f-c305-4778-b869-be8d139d40c5)
 ![image](https://github.com/user-attachments/assets/7e625493-226a-414a-a8b1-1977c61d3ca4)
